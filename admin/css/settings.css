@@ -1,0 +1,55 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+.pagination a.current {
+    font-weight: bold;
+    color: red;
+}
+
+.toggle-status.on {
+    background-color:red;
+    color: white;
+}
+
+.toggle-status.off {
+    background-color: green;
+    color: white;
+}
+
+.tabs {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.tabs div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.tabs div.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+li {
+    background-color: #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

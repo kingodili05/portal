@@ -1,0 +1,60 @@
+
+  .login-box {
+    width: 360px;
+    height: 380px;
+    margin: 15% auto auto auto;
+    background-color: rgb(184, 185, 184);
+    border-radius: 10px;
+    box-shadow: 
+      0 0 10px rgba(255, 0, 0, 0.8),
+      0 0 20px rgba(0, 255, 0, 0.8),
+      0 0 30px rgba(0, 0, 255, 0.8), 
+      0 0 40px rgba(255, 255, 0, 0.8),
+      0 0 50px rgba(0, 255, 255, 0.8),
+      0 0 60px rgba(255, 0, 255, 0.8);
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  #username, #password {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  #login {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-size: 24px;
+    border-radius: 50px;
+  }
+  
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    color: red;
+  }

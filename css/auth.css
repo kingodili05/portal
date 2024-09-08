@@ -1,0 +1,249 @@
+:root {
+    --bg: #f0f2f5;
+    --blue: #1877f2;
+    --dark-blue: #1360c4;
+    --white: #FFF;
+    --green: #42b72a;
+    --dark-green: #369423;
+  }
+  
+  
+  * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  
+  body {
+    height: 100dvh;
+    overflow: hidden;
+    background-color: var(--bg);
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .main-wrapper {
+    height: 680px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panel {
+    margin: 20px 0;
+    border-radius: 6px;
+    place-items: center;
+    display: grid;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+  }
+  
+  input::placeholder {
+    font-size: 1.0rem;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #989898;
+  }
+  
+  input:focus {
+    outline: 1px solid var(--blue);
+  }
+  
+  input:focus::placeholder {
+    color: #c2c2c2;
+  }
+
+  .image {
+    width: 595px;
+    height: 260px;
+    margin-top: 15px;
+  }
+  
+  .log-in-button {
+    background-color: var(--blue);
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 10px;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .log-in-button:hover {
+    background-color: var(--dark-blue);
+    cursor: pointer;
+  }
+  
+
+
+  .main-wrapper #header {
+    margin-top: 10px;
+    color: #1c2b33;
+    margin-bottom: 15px;
+  }
+  
+
+  #code {
+    height: 58px;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #cbd2d9; 
+  }
+  
+  @media (min-width: 890px) {
+    .main-wrapper {
+        max-width: 599px;
+        flex-direction: row;
+        padding-top: 70px;
+        align-items: center;
+        display: grid;
+        margin: auto;
+    }
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 100dvh;
+    }
+    .main-wrapper {
+        width: 380px;
+        height: 680px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userD {
+        padding: 5px;
+    }
+    .loginForm {
+        margin: 20px 0;
+        border-radius: 6px;
+        place-items: center;
+        display: grid;
+        width: 380px;
+        padding: 15px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #d2d2d2;
+        border-radius: 6px;
+      }
+      
+      input::placeholder {
+        font-size: 1.0rem;
+        padding-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #989898;
+      }
+      
+      input:focus {
+        outline: 1px solid var(--blue);
+      }
+      
+      input:focus::placeholder {
+        color: #c2c2c2;
+      }
+    
+      .image {
+        width: 375px;
+        height: 190px;
+        margin-top: 15px;
+        padding: 5px;
+      }
+      
+      .log-in-button {
+        width: 375px;
+        padding: 10px;
+      }
+      
+      .log-in-button:hover {
+        background-color: var(--dark-blue);
+        cursor: pointer;
+      }
+      
+      .main-wrapper #header {
+        margin-top: 10px;
+        color: #1c2b33;
+        margin-bottom: 15px;
+        padding: 5px;
+      }
+      
+      #code {
+        height: 58px;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 5px;
+        border: 1px solid #cbd2d9;
+        width: 375px; 
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }    
+    .panel {
+        width: 362px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }  
+    .panel {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }  
+    .panel {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }  
+    .panel {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }  
+    .panel {
+        width: 410px;
+    }
+}
